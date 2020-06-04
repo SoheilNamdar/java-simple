@@ -4,8 +4,7 @@ public class Main {
     public static void main(String[] args) {
         String primeNumbersFound = "";
         for (int i = 1; i <= 1000; i++) {
-            boolean isPrime = checkPrime(i);
-            if (isPrime) {
+            if (checkPrime(i)) {
                 primeNumbersFound = primeNumbersFound + i + " ";
             }
         }
